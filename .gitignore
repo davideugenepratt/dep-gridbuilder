@@ -2,8 +2,6 @@
 **/*.log
 **/*.out
 
-**/.*
-!**/.gitignore
-!**/.travis.yml
+**/.vagrant
 
 **/node_modules
