@@ -1,6 +1,9 @@
 **/.idea
 **/*.log
 **/*.out
+
 **/.*
 !**/.gitignore
+!**/.travis.yml
+
 **/node_modules
