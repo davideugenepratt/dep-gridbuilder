@@ -22,6 +22,6 @@ sudo apt-get update
 
 sudo apt-get install -y unzip openjdk-8-jre-headless xvfb libxi6 libgconf-2-4 google-chrome-stable
 
-echo "xvfb-run --server-args='-screen 0, 1024x768x16' google-chrome -start-maximized > /dev/null &" | sudo tee -a ~/.profile
+echo "Xvfb -ac :99 -screen 0 1280x1024x16 > /dev/null &" | sudo tee -a /home/ubuntu/.profile
 
-echo "export DISPLAY=:99" | sudo tee -a ~/.profile
+echo "export DISPLAY=:99" | sudo tee -a /home/ubuntu/.profile

@@ -24,4 +24,6 @@ before_script:
   - npm install
   - ng build
 
-script: ng test --single-run
+script:
+  - ng test --single-run
+  - ng e2e
