@@ -1,0 +1,14 @@
+{
+  "name": "dep-gridbuilder",
+  "description": "A Angular 2 based gribuilder node module",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/davideugenepratt/dep-gridbuilder",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
