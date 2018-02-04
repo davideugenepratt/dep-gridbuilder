@@ -17,12 +17,15 @@ before_install:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
   - cd dep-gridbuilder
+  - pwd
   - ls -l
 
 before_script:
-- npm install -g angular-cli
-- npm install -g karma
-- npm install --no-bin-links
-- ng build
+  - ls -l
+  - pwd
+  - npm install -g angular-cli
+  - npm install -g karma
+  - npm install
+  - ng build
 
 script: ng test --single-run
