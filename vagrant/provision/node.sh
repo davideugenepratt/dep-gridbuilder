@@ -20,4 +20,4 @@ echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sud
 
 sudo apt-get update
 
-sudo apt-get install google-chrome-stable
+sudo apt-get install -y unzip openjdk-8-jre-headless xvfb libxi6 libgconf-2-4 google-chrome-stable
