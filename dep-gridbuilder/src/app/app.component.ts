@@ -1,10 +1,21 @@
 import { Component } from '@angular/core';
+import { Page } from './page';
 
 @Component({
-  selector: 'app-root',
+  selector: 'gridbuilder',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+
+  public page;
+
+  public canvas;
+
+  constructor() {
+
+    this.page = new Page();
+
+  }
+
 }

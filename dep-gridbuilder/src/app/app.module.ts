@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { HtmlCanvasComponent } from './html-canvas/html-canvas.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HtmlCanvasComponent
   ],
   imports: [
     BrowserModule
